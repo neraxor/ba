@@ -1,0 +1,10 @@
+  {
+    "$schema": "https://raw.githubusercontent.com/stryker-mutator/stryker-net/master/src/Stryker.Core/Stryker.Core/stryker-schema.json",
+    "stryker-config": {
+      "solution": "OrderSystem.slnx",
+      "test-projects": ["./OrderSystem.Tests/OrderSystem.Tests.csproj"],
+      "reporters": ["html", "json", "progress"],
+      "verbosity": "info",
+      "concurrency": 4
+    }
+  }
